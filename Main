@@ -1,0 +1,13 @@
+# Creating a simple text file with content
+
+# File name
+file_name = "newfile.txt"
+
+# File content
+file_content = "This is a sample file created using Python.\nFeature branch file content."
+
+# Creating and writing to the file
+with open(file_name, "w") as file:
+    file.write(file_content)
+
+print(f"{file_name} created successfully.")
